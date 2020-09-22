@@ -1,0 +1,12 @@
+.divider-v {
+  @apply border border-gray-800 w-px h-4 mx-6;
+
+  &--white {
+    @apply border-white;
+  }
+
+}
+
+.divider-h {
+  @apply border border-gray-800 h-px my-6;
+}

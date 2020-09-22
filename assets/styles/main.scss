@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "fonts";
+@import "layout";
+@import "header";
+@import "typography";
+@import "utils";
+@import "buttons";
+@import "transitions";
+// @import '/node_modules/vue-slick-carousel/dist/vue-slick-carousel.css';
+:root {
+    --black: #151515;
+    --yellow: #F4B41A;
+    --red: #F61907;
+    --green: #047617;
+    --banner-bg: #090B13;
+    --footer-bg: #0E0F15;
+}
+
+.banner-wrapper {
+    width: 100%;
+}
+
+@screen sm {
+    .banner-wrapper {
+        @extend .app-container;
+    }
+}
+
+.bg {
+    &--black {
+        background: var(--banner-bg);
+    }
+    &--red {
+        background: var(--red);
+    }
+    &--yellow {
+        background: var(--yellow);
+    }
+    &--green {
+        background: var(--green);
+    }
+}

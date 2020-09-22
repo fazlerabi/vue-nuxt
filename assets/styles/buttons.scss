@@ -1,0 +1,15 @@
+.button {
+  @apply text-white px-10 py-3;
+
+  &:hover {
+    opacity: .9;
+  }
+
+  &--green {
+    background: var(--green);
+  }
+
+  &--red {
+    background: var(--red);
+  }
+}

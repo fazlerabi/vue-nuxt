@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local("Poppins"),
+  url('~@/assets/fonts/poppins/Poppins-Black.otf') format('font-opentype'),
+  url('~@/assets/fonts/poppins/Poppins-Light.otf') format('font-opentype'),
+  url('~@/assets/fonts/poppins/Poppins-Regular.otf') format('font-opentype'),
+  url('~@/assets/fonts/poppins/Poppins-Medium.otf') format('font-opentype'),
+  url('~@/assets/fonts/poppins/Poppins-SemiBold.otf') format('font-opentype'),
+  url('~@/assets/fonts/poppins/Poppins-Bold.otf') format('font-opentype'),
+  url('~@/assets/fonts/poppins/Poppins-ExtraBold.otf') format('font-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("Montserrat"),
+  url('~@/assets/fonts/montserrat/Montserrat-Black.otf') format('font-opentype'),
+  url('~@/assets/fonts/montserrat/Montserrat-Light.otf') format('font-opentype'),
+  url('~@/assets/fonts/montserrat/Montserrat-Regular.otf') format('font-opentype'),
+  url('~@/assets/fonts/montserrat/Montserrat-Regular.ttf') format('font-truetype'),
+  url('~@/assets/fonts/montserrat/Montserrat-Medium.otf') format('font-opentype'),
+  url('~@/assets/fonts/montserrat/Montserrat-SemiBold.otf') format('font-opentype'),
+  url('~@/assets/fonts/montserrat/Montserrat-Bold.otf') format('font-opentype'),
+  url('~@/assets/fonts/montserrat/Montserrat-Bold.ttf') format('font-truetype'),
+  url('~@/assets/fonts/montserrat/Montserrat-ExtraBold.otf') format('font-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+}
